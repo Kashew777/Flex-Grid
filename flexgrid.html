@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+        }
+        .boxes{
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            
+        }
+        .boxes:hover{
+            
+            cursor: pointer;
+        }
+    .maincontainer{
+        display: flex;
+         
+        height: 600px;
+        width: 1200px;
+        column-gap: 10px;
+
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .left-upper{
+        display: flex;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .box1{
+        background-color: red;
+        height: 280px;
+        width: 280px;
+    }
+    .box2{
+        background-color: red;
+        width: 280px;
+        height: 140px;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        
+    }
+    .row-2-upper{
+        display: flex;
+        column-gap: 10px;
+    }
+    .box3,.box4{
+        height: 140px;
+        width: 275px;
+        background-color: aquamarine;
+    }
+    .box5{
+        width: 560px;
+        height: 280px;
+        background-color: aquamarine;
+    }
+    .left-down{
+        display: flex;
+        column-gap: 10px;
+    }
+    .box6{
+width: 560px;
+height: 130px;
+background-color: blueviolet;
+    }
+    .box7{
+        background-color: blueviolet;
+        width: 280px;
+        height: 130px;
+
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .box8{
+        width: 280px;
+        height: 280px;
+        background-color: lawngreen;
+    }
+    .box9{
+        width: 280px;
+        height: 280px;
+        background-color: lawngreen;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="left">
+            <div class="left-upper">
+                <div class="row1">
+                    <div class="box1 boxes">Box1</div>
+                    <div class="box2 boxes">Box2</div>
+                </div>
+                <div class="row2">
+                    <div class="row-2-upper">
+                        <div class="box3 boxes">Box3</div>
+                        <div class="box4 boxes">Box4</div>
+                    </div>
+                    <div class="box5 boxes">Box5</div>
+                </div>
+            </div>
+            <div class="left-down">
+                <div class="box6 boxes">Box6</div>
+                <div class="box7 boxes">Box7</div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box8 boxes">Box8</div>
+            <div class="box9 boxes">Box9</div>
+        </div>
+
+    </div>
+</body>
+</html>
